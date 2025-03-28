@@ -1,0 +1,6 @@
+.env
+node_modules
+build
+dist
+docker-compose.yml
+postman_collection.json
