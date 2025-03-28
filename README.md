@@ -59,6 +59,7 @@ Once you run the server you can open in your browser:
 -   /spec - For the swagger spec
 
 You can find the postman collection in the repository itself, you just have to import it in your postman.
+
 **NOTE:** The Login request is going to automatically set the response token in a variable so you don't have to do it manually yourself.
 
 ---
