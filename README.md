@@ -6,6 +6,7 @@ Manage employees and projects through a REST API
 
 -   [Installation and Usage](#installation-and-usage)
 -   [Swagger Documentation, Spec and Postman Collection](#swagger-documentation-spec-and-postman-collection)
+-   [Tests](#tests)
 
 ## Installation and Usage
 
@@ -66,3 +67,12 @@ You can find the postman collection in the repository itself, you just have to i
 
 **NOTE**: You can find the api request about the longest collaboration in the postman or swagger. It accepts either an CSV file
 or if an CSV file was not passed it will use the database.
+
+## Tests
+
+To run the tests:
+
+```cmd
+	$ npm i
+	$ npm test
+```
