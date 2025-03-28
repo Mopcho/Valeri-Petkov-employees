@@ -13,7 +13,7 @@ Manage employees and projects through a REST API
 1. Run in docker
 
 ```cmd
-	$ npm run start:docker
+$ npm run start:docker
 ```
 
 ---
@@ -34,20 +34,20 @@ If you are going to run PostgreSQL through the docker-compose.yml file make sure
 Install dependencies and build
 
 ```cmd
-	$ npm i
-	$ npm build
+$ npm i
+$ npm build
 ```
 
 Run PostgreSQL with docker-compose ( skip if you are using a local installation of PostgreSQL )
 
 ```cmd
-	$ npm run start:db
+$ npm run start:db
 ```
 
 Run server:
 
 ```
-	$ npm start
+$ npm start
 ```
 
 ---
@@ -73,6 +73,6 @@ or if an CSV file was not passed it will use the database.
 To run the tests:
 
 ```cmd
-	$ npm i
-	$ npm test
+$ npm i
+$ npm test
 ```
